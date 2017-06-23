@@ -1,0 +1,82 @@
+.slideShow{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    span{
+        border-bottom: none;
+    }
+
+}
+figure{
+    position: absolute;
+    opacity: 0;
+    transition: 1s opacity;
+}
+
+figure.show{
+        opacity: 1;
+        position: static;
+        transition: 1s opacity;
+    }
+
+span.show{
+    color: darken(@lightGray, 20%);
+}
+
+
+.image-nav{
+    position:absolute;
+    bottom: 0em;
+    right: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    &:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+}
+
+.nav1{
+   padding-right: 40px;
+}
+
+.nav2{
+    padding-right: 20px;
+}
+
+
+
+.next, .prev{
+    color:@lightGray;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    top: 50%;
+    z-index: 1;
+    margin-top: -.75em;
+    opacity: .3;
+    user-select:none;
+    
+    &:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+}
+
+.next{
+    right: 0;
+    padding: 10px 5px 15px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.prev{
+    left:0;
+    padding: 10px 10px 15px 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

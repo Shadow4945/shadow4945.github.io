@@ -1,0 +1,16 @@
+a {
+    color: @defaultFontColor;
+    padding: 0.8em;
+    &:link {
+        text-decoration: none;
+    }
+    &:visited {
+        text-decoration: underline;
+    }
+    &:hover {
+        color: lighten(@defaultFontColor, 30%);
+    }
+    &:active {
+        color: darken(@defaultFontColor, 20%);
+    }
+}

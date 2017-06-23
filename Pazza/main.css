@@ -1,0 +1,700 @@
+.floatLeft {
+    float: left;
+}
+
+.menuEle {
+    font-size: 25px;
+    background-color: #11552a;
+    height: 41px;
+    padding-top: 10px;
+    width: 100px;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+.menuEle:hover {
+    -webkit-filter: brightness(150%);
+    filter: brightness(150%);
+}
+
+.topping {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.radioBtn {
+    margin-left: 240px;
+}
+
+.titleFont {
+    font-family: 'wayoshi';
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    font-size: 40px;
+    height: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pizzaSizes {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 33px;
+    font-family: "wayoshi";
+}
+
+.sizeButtons {
+    width: 20px;
+    height: 20px;
+}
+
+.sizeButtons2 {
+    margin-top: -5px;
+    width: 17px;
+    height: 17px;
+}
+
+#centerer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1143px;
+}
+
+#menu {
+    height: 40px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#myBody {
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(Images/brick-background-1024x801.jpg);
+}
+
+#topBorder {
+    width: 1143px;
+    height: 130px;
+    background-color: #11552a;
+    box-shadow: 30px 35px 10px rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logo {
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+#title {
+    font-family: 'wayoshi';
+    text-align: center;
+    height: 60px;
+    width: 80%;
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+}
+
+#mainArea {
+    width: 1143px;
+    height: 1150px;
+    background-color: #eba963;
+    padding-top: 50px;
+    box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.name {
+    height: 10px;
+    text-align: center;
+}
+
+#pizzaBoard {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    vertical-align: top;
+    background-image: url(Images/woodboardYo.png);
+    width: 525px;
+    height: 362px;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#marinara {
+    background-image: url(Images/sauce_Marinara.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -255px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#bbq {
+    background-image: url(Images/bbq.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -515px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#mozzerella {
+    background-image: url(Images/cheese_mozz.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -780px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftripper {
+    background-image: url(Images/leftripperonis.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -1036px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#ripper {
+    background-image: url(Images/ripperonis.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -1300px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#rightripper {
+    background-image: url(Images/Rightripperonis.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -1560px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftham {
+    background-image: url(Images/leftham.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -1825px;
+    left: 80px;
+    visibility: hidden;
+}
+
+#ham {
+    background-image: url(Images/ham.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -2080px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#rightham {
+    background-image: url(Images/rightHam.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -2340px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftbacon {
+    background-image: url(Images/leftBacon.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -2604px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#bacon {
+    background-image: url(Images/topping_Bacon.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -2864px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#rightbacon {
+    background-image: url(Images/RightBacon.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -3124px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftchicken {
+    background-image: url(Images/leftChicken.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -3384px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#chicken {
+    background-image: url(Images/topping_Chicken.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -3648px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#rightchicken {
+    background-image: url(Images/rightChicken.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -3912px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftsausage {
+    background-image: url(Images/leftItalianSausage.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -4170px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#sausage {
+    background-image: url(Images/topping_ItalianSausage.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -4430px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#rightsausage {
+    background-image: url(Images/rightItalianSausage.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -4697px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftpepper {
+    background-image: url(Images/leftGreenBellPepper.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -4950px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#pepper {
+    background-image: url(Images/topping_GreenBellPepper.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -5210px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#rightpepper {
+    background-image: url(Images/rightGreenBellPepper.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -5480px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#leftjaplapeno {
+    background-image: url(Images/leftJalepeno.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -5740px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#japlapeno {
+    background-image: url(Images/topping_Jalepeno.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -6000px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#rightjaplapeno {
+    background-image: url(Images/rightJalepeno.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -6260px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#leftshroom {
+    background-image: url(Images/leftMushroom.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -6520px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#shroom {
+    background-image: url(Images/topping_Mushroom.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -6780px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#rightshroom {
+    background-image: url(Images/rightMushroom.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -7040px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftolive {
+    background-image: url(Images/leftOlives_black.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -7300px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#olive {
+    background-image: url(Images/topping_Olives_black.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -7560px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#rightolive {
+    background-image: url(Images/rightOlives_black.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -7830px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#leftpine {
+    background-image: url(Images/leftPineapple.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -8090px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#pine {
+    background-image: url(Images/topping_Pineapple.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -8350px;
+    left: 135px;
+    visibility: hidden;
+}
+
+#rightpine {
+    background-image: url(Images/rightPineapple.png);
+    width: 261px;
+    height: 261px;
+    position: relative;
+    top: -8610px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#pizza {
+    background-image: url(Images/crustYo.png);
+    width: 261px;
+    height: 261px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5px;
+    border-radius: 100%;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+#premadePizzas {
+    width: 400px;
+    height: 333px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 35px;
+    left: 100px;
+    display: inline-block;
+    padding-top: 20px;
+    background-color: w;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+    background-color: #EDDFD1;
+}
+
+#button {
+    width: 100px;
+    height: 100px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.premade {
+    align-content: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    vertical-align: top;
+    font-family: 'wayoshi';
+}
+
+#premadePizza1 {
+    background: url(Images/BBQ_Lovers_PIzza.png) no-repeat;
+}
+
+#premadePizza2 {
+    background: url(Images/Classic_Meat_Lovers_Pizza.png) no-repeat;
+}
+
+#premadePizza3 {
+    background: url(Images/Pepperoni_Lovers_Pizza.png) no-repeat;
+}
+
+#premadePizza4 {
+    background: url(Images/Primo_Meat.png) no-repeat;
+}
+
+#premadePizza5 {
+    background: url(Images/Ultimate_Cheese_Lovers_Pizza.png) no-repeat;
+}
+
+#premadePizza6 {
+    background: url(Images/crust.png) no-repeat;
+}
+
+#pizzaTypes {
+    width: 600px;
+    height: 560px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 49px;
+    margin-top: 100px;
+    background-color: #EDDFD1;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cheeseSauce {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#cheeses {
+    width: 290px;
+    height: 150px;
+    float: left;
+}
+
+#line {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 0px;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 110px;
+    float: left;
+    border-radius: 30%;
+}
+
+#sauces {
+    width: 292px;
+    height: 150px;
+    margin-left: 5px;
+    float: left;
+}
+
+#toppings {
+    border-top: 3px;
+    border-top-style: solid;
+    width: 600px;
+    height: 317px;
+    float: left;
+}
+
+#offer {
+    margin-top: 25px;
+    visibility: hidden;
+}
+
+.topText {
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    right: 35px;
+    top: 40px;
+    font-size: 20px;
+}
+
+#deal {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#RECIEPT {
+    background-image: url(Images/receiptyo2.png);
+    width: 262px;
+    height: 560px;
+    position: relative;
+    bottom: 560px;
+    left: 750px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.priceText {
+    font-size: 25px;
+}
+
+.priceText2 {
+    font-size: 35px;
+}
+
+#toppingTitle {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#toppingScript {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#spcText {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+#offer {
+    margin-top: 30px;
+}
+
+#toppingList {
+    width: 92%;
+    height: 195px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#totalText {
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    height: 28px;
+}
+
+#totalCost {
+    width: 20px;
+    height: 25px;
+    float: left;
+}
+
+#totalScript {
+    width: 195px;
+    height: 25px;
+    float: left;
+}
+
+#go {
+    position: relative;
+    top: 30px;
+    left: 42px;
+    width: 170px;
+    height: 80px;
+    font-family: "wayoshi";
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'wayoshi';
+    src: url('fonts/wayoshi.ttf') format('truetype');
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Framework</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts/slideshow.js"></script>
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/qotd.js"></script>
+    <script src="scripts/tooltip.js"></script>
+</head>
+
+<body>
+<!--
+    <div class="Headline">This is a headline</div>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <div class="shape" id="shape1"></div>
+    <div class="shape" id="shape2"></div>
+    <div class="shape" id="shape3"></div>
+    <a href="https://www.youtube.com/watch?v=acxttDFK7AQ">This is a link</a>
+    <div class="customTable">
+        <table>
+            <tr>
+                <td>
+                    Title 1
+                </td>
+                <td>
+                    Title 2
+                </td>
+                <td>
+                    Title 3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 1
+                </td>
+                <td>
+                    Row 1
+                </td>
+                <td>
+                    Row 1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 2
+                </td>
+                <td>
+                    Row 2
+                </td>
+                <td>
+                    Row 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 2
+                </td>
+                <td>
+                    Row 2
+                </td>
+                <td>
+                    Row 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 3
+                </td>
+                <td>
+                    Row 3
+                </td>
+                <td>
+                    Row 3
+                </td>
+            </tr>
+        </table>
+    </div>
+-->
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Dropdown</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="motd"></div>
+    <div class="slideShow">
+        <figure class="show"><img src="images/img1.jpg" alt="" width="100%" /></figure>
+        <figure><img src="images/img2.png" alt="" width="100%" /></figure>
+        <figure><img src="images/img3.jpg" alt="" width="100%" /></figure>
+            <div class="navNums">
+            <span class="image-nav nav1 show">1</span>
+            <span class="image-nav nav2">2</span>
+            <span class="image-nav nav3">3</span>
+                </div>
+            <span class="prev">&laquo;</span>
+            <span class="next">&raquo;</span>
+        
+    </div>
+    
+    <div class="modalStuff">
+        <button id="modalBtn">Open Modal</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">x</span>
+                    <h2>Sample Header</h2>
+                </div>
+            <div class="modal-body">
+                <p>Sample Text</p>
+                <p>More sample text</p>
+                </div>
+            <div class="modal-footer">
+                <h3>Sample Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="tooltipContainer">
+         <span rel="tooltip" title="A tooltip looks like this.">This is a tooltip.</span>
+    </div>
+</body>
+
+</html>

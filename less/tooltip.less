@@ -1,0 +1,29 @@
+.tooltipContainer {
+    span {
+        border-bottom: 1px dotted #000;
+        text-decoration: none;
+    }
+}
+
+#tooltip {
+    position: absolute;
+    z-index: 999;
+    color: @lightGray;
+    width: 180px;
+    padding: 0;
+    .tooltipHeader {
+        height: 8px;
+    }
+    .tooltipBody {
+        background-color: @black;
+        padding: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        
+    }
+    .tooltipFooter {
+        height: 8px;
+    }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<title>
+    Pizzario Pizza
+</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body id="myBody">
+    <div id="centerer">
+        <div id="topBorder">
+            <img src="Images/wario3.png" height="144" width="131" id="logo" class="floatLeft" />
+            <div id="title" class="floatLeft">PIZZARIO'S PIZZA
+                <nav id="menu">
+                    <a href="#"> <div id="Home" class="floatLeft menuEle">Home</div></a>
+                    <a href="#"><div id="Menu" class="floatLeft menuEle">Menu</div></a>
+                    <a href="#"><div id="Deals" class="floatLeft menuEle">Deals</div></a>
+                    <a href="#"><div id="Location" class="floatLeft menuEle">Location</div></a>
+                </nav>
+            </div>
+
+        </div>
+        <div id="mainArea">
+            <div id="pizzaBoard">
+                <section class="pizzaSizes">
+
+                    <input class="sizeButtons" type="radio" name="size" onchange="changeSize()" checked="true">Small $1
+                    <input class="sizeButtons" type="radio" name="size" onchange="changeSize()">Medium $2
+
+                    <input class="sizeButtons" type="radio" name="size" onchange="changeSize()">Large $3
+
+                </section>
+
+                <div id="pizza"></div>
+                <div id="marinara"></div>
+                <div id="bbq"></div>
+                <div id="mozzerella"></div>
+                <div id="leftripper"></div>
+                <div id="ripper"></div>
+                <div id="rightripper"></div>
+                <div id="leftham"></div>
+                <div id="ham"></div>
+                <div id="rightham"></div>
+                <div id="leftbacon"></div>
+                <div id="bacon"></div>
+                <div id="rightbacon"></div>
+                <div id="leftchicken"></div>
+                <div id="chicken"></div>
+                <div id="rightchicken"></div>
+                <div id="leftsausage"></div>
+                <div id="sausage"></div>
+                <div id="rightsausage"></div>
+                <div id="leftpepper"></div>
+                <div id="pepper"></div>
+                <div id="rightpepper"></div>
+                <div id="leftjaplapeno"></div>
+                <div id="japlapeno"></div>
+                <div id="rightjaplapeno"></div>
+                <div id="leftshroom"></div>
+                <div id="shroom"></div>
+                <div id="rightshroom"></div>
+                <div id="leftolive"></div>
+                <div id="olive"></div>
+                <div id="rightolive"></div>
+                <div id="leftpine"></div>
+                <div id="pine"></div>
+                <div id="rightpine"></div>
+            </div>
+            <div id="premadePizzas">
+                <div id="premadePizza1" class="premade">
+                    <input id="button" type="radio" name="premade" onchange="bbq()">
+                </div>
+                <div id="premadePizza2" class="premade">
+                    <input id="button" type="radio" name="premade" onchange="meatLovers()">
+                </div>
+
+                <div id="premadePizza3" class="premade">
+                    <input id="button" type="radio" name="premade" onchange="ripperoni()">
+                </div>
+                <div class="premade">
+                    <p class='name'>BBQ</p>
+                    <p class='name'></p>
+                    <p class='name'>The Pizzario</p>
+                </div>
+                <div class="premade">
+                    <p class='name'>MEATY MEAT</p>
+                    <p class='name'></p>
+                    <p class='name'>Custom</p>
+                </div>
+                <div class="premade">
+                    <p class='name'>Riperoni</p>
+                    <p class='name'></p>
+                    <p class='name'>120% Cheese</p>
+                </div>
+                <div id="premadePizza4" class="premade">
+                    <input id="button" type="radio" name="premade" onchange="primeMeat()">
+                </div>
+                <div id="premadePizza6" class="premade">
+                    <input id="button" type="radio" name="premade" onchange="custom()">
+                </div>
+                <div id="premadePizza5" class="premade">
+                    <input id="button" type="radio" name="premade" onchange="cheese()">
+                </div>
+            </div>
+
+            <div id="pizzaTypes">
+                <div id="cheeses">
+                    <p class="titleFont">Cheese</p>
+                    <br/>
+                    <section class="cheeseSauce">
+
+                        <input class="sizeButtons2" type="radio" name="cheese" onchange="changeCheese()" checked="true">None
+
+                        <input class="sizeButtons2" type="radio" name="cheese" onchange="changeCheese()">Normal
+
+                        <input class="sizeButtons2" type="radio" name="cheese" onchange="changeCheese()">Extra
+
+
+
+                    </section>
+                </div>
+                <div id="line"></div>
+                <div id="sauces">
+                    <p class="titleFont">Sauce</p>
+                    <br/>
+
+                    <section class="cheeseSauce">
+
+                        <input class="sizeButtons2" type="radio" name="sauce" onchange="changeSauce()" checked="true">None
+
+                        <input class="sizeButtons2" type="radio" name="sauce" onchange="changeSauce()">Marinara
+
+                        <input class="sizeButtons2" type="radio" name="sauce" onchange="changeSauce()">BBQ
+
+
+
+                    </section>
+                </div>
+                <div id="toppings">
+                    <div id="toppingScript">
+                        <p class="titleFont ">Toppings</p>
+                        <p id="spcText">(5 Toppings = New Special)</p>
+                    </div>
+                    <br/>
+
+                    <section class="topping"> Pepperoni:
+
+                        <input type="radio" name="pepperoni" onchange="changePepperoni()" checked="true">None
+
+                        <input type="radio" name="pepperoni" onchange="changePepperoni()">Left
+
+                        <input type="radio" name="pepperoni" onchange="changePepperoni()">Center
+
+                        <input type="radio" name="pepperoni" onchange="changePepperoni()">Right
+
+                    </section>
+
+                    <section class="topping"> Ham:
+
+                        <input type="radio" name="ham" onchange="changeHam()" checked="true">None
+
+                        <input type="radio" name="ham" onchange="changeHam()">Left
+
+                        <input type="radio" name="ham" onchange="changeHam()">Center
+
+                        <input type="radio" name="ham" onchange="changeHam()">Right
+
+                    </section>
+
+                    <section class="topping"> Bacon:
+
+                        <input type="radio" name="bacon" onchange="changeBacon()" checked="true">None
+
+                        <input type="radio" name="bacon" onchange="changeBacon()">Left
+
+                        <input type="radio" name="bacon" onchange="changeBacon()">Center
+
+                        <input type="radio" name="bacon" onchange="changeBacon()">Right
+
+                    </section>
+
+                    <section class="topping"> Chicken:
+
+                        <input type="radio" name="chicken" onchange="changeChicken()" checked="true">None
+
+                        <input type="radio" name="chicken" onchange="changeChicken()">Left
+
+                        <input type="radio" name="chicken" onchange="changeChicken()">Center
+
+                        <input type="radio" name="chicken" onchange="changeChicken()">Right
+
+                    </section>
+
+                    <section class="topping"> Sausage:
+
+                        <input type="radio" name="sausage" onchange="changeSausage()" checked="true">None
+
+                        <input type="radio" name="sausage" onchange="changeSausage()">Left
+
+                        <input type="radio" name="sausage" onchange="changeSausage()">Center
+
+                        <input type="radio" name="sausage" onchange="changeSausage()">Right
+
+                    </section>
+
+                    <section class="topping"> Green Bell Pepper:
+
+                        <input type="radio" name="bellPepper" onchange="changeBellPepper()" checked="true">None
+
+                        <input type="radio" name="bellPepper" onchange="changeBellPepper()">Left
+
+                        <input type="radio" name="bellPepper" onchange="changeBellPepper()">Center
+
+                        <input type="radio" name="bellPepper" onchange="changeBellPepper()">Right
+
+                    </section>
+
+                    <section class="topping"> Jalapeno:
+
+                        <input type="radio" name="jalapeno" onchange="changeJalapeno()" checked="true">None
+
+                        <input type="radio" name="jalapeno" onchange="changeJalapeno()">Left
+
+                        <input type="radio" name="jalapeno" onchange="changeJalapeno()">Center
+
+                        <input type="radio" name="jalapeno" onchange="changeJalapeno()">Right
+
+                    </section>
+
+                    <section class="topping"> Mushroom
+
+                        <input type="radio" name="mushroom" onchange="changeMushroom()" checked="true">None
+
+                        <input type="radio" name="mushroom" onchange="changeMushroom()">Left
+
+                        <input type="radio" name="mushroom" onchange="changeMushroom()">Center
+
+                        <input type="radio" name="mushroom" onchange="changeMushroom()">Right
+
+                    </section>
+
+                    <section class="topping"> Olives:
+
+                        <input type="radio" name="olives" onchange="changeOlives()" checked="true">None
+
+                        <input type="radio" name="olives" onchange="changeOlives()">Left
+
+                        <input type="radio" name="olives" onchange="changeOlives()">Center
+
+                        <input type="radio" name="olives" onchange="changeOlives()">Right
+
+                    </section>
+
+                    <section class="topping"> Pineapple:
+
+                        <input type="radio" name="pineapple" onchange="changePineapple()" checked="true">None
+
+                        <input type="radio" name="pineapple" onchange="changePineapple()">Left
+
+                        <input type="radio" name="pineapple" onchange="changePineapple()">Center
+
+                        <input type="radio" name="pineapple" onchange="changePineapple()">Right
+
+                    </section>
+
+                </div>
+            </div>
+            <div id="RECIEPT">
+                <img id="offer" class="floatLeft" src="Images/special.png" height="75" , width="75" />
+                <div class="floatLef topText">Pizzario's Pizza</div>
+                <div class="floatLef topText">1263 WAA Street</div>
+                <div id="deal" class="floatLef topText"></div>
+                <p id="toppingTitle">Toppings</p>
+                <div id="toppingList"></div>
+                <div id="totalText">
+                    <div id="totalScript" class="priceText2">Total Price: $</div>
+                    <div id="totalCost" class="priceText2">0</div>
+                </div>
+                <a href="#">
+                    <button id="go"> Add to Order</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="pizza.js"></script>
+
+</html>
